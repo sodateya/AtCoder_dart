@@ -1,0 +1,17 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "my_dart_project",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    }
+  ],
+  "generated": "2024-07-22T08:39:50.153911Z",
+  "generator": "pub",
+  "generatorVersion": "3.4.0",
+  "flutterRoot": "file:///Users/takuyaishikawa/Flutter/flutter",
+  "flutterVersion": "3.22.0",
+  "pubCache": "file:///Users/takuyaishikawa/.pub-cache"
+}

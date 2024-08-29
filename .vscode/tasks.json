@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Dart Program",
+            "type": "shell",
+            "command": "dart",
+            "args": [
+                "run",
+                "${file}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Get Dart Packages",
+            "type": "shell",
+            "command": "dart",
+            "args": [
+                "pub",
+                "get"
+            ],
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}

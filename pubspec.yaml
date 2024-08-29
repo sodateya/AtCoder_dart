@@ -1,0 +1,23 @@
+name: my_dart_project
+description: A simple Dart project
+version: 1.0.0
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  # 必要に応じて依存関係を追加します
+  # 例えば、httpパッケージを追加する場合は以下のように記述します
+  # http: ^0.13.3
+
+dev_dependencies:
+  # 開発時に必要な依存関係を追加します
+  # 例えば、テストパッケージを追加する場合は以下のように記述します
+  # test: ^1.16.0
+
+# 必要に応じて追加の設定を記述します
+# 例えば、dartanalyzerの設定を追加する場合は以下のように記述します
+# analyzer:
+#   strong-mode:
+#     implicit-casts: false
+#     implicit-dynamic: false
